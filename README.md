@@ -12,3 +12,16 @@
 <img width="1339" height="533" alt="螢幕擷取畫面 2026-05-21 215808" src="https://github.com/user-attachments/assets/3e8458aa-5d1b-4dd5-9135-07ca0f7085d4" />
 
 ## 畫人測驗
+**以下分析以陳牧宏醫師於2025年所蒐集之15個個案為主**
+### 時間光譜圖
+**為了可以看到成品的筆畫順序，我打算利用程式產生timestamp時間光譜圖，讓筆畫的顏色隨時間變化**  
+
+
+第一次測試：DAP_Timestamp_v1.py   
+<img width="330" height="576" alt="01_temporal_spectrum" src="https://github.com/user-attachments/assets/ade5d356-1955-4cec-99d7-25bb890c9cc7" />   
+程式產生了以上範例圖片以及 **ink time(筆畫時間) & think time(思考時間) & total time** 的Excel  
+但因為圖中包含到了受試者擦拭掉的筆畫，因此需要做第二次的修改  
+
+第二次測試：
+### 墨水數據統計
+### 標準差和熵統計
