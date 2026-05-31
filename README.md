@@ -22,6 +22,19 @@
 程式產生了以上範例圖片以及 **ink time(筆畫時間) & think time(思考時間) & total time** 的Excel  
 但因為圖中包含到了受試者擦拭掉的筆畫，因此需要做第二次的修改  
 
-第二次測試：
-### 墨水數據統計
+第二次測試：  
+<img width="256" height="512" alt="01_spectrogram_without_erased" src="https://github.com/user-attachments/assets/b0c2e9bd-2f65-4759-969c-422343ebc1ba" />    
+圖確實刪除掉擦拭的筆畫，但筆畫產生的線條太粗，且圖畫顛倒，因此需要做第三次的修改  
+
+第三次測試：  
+<img width="326" height="512" alt="01_spectrogram_without_erased" src="https://github.com/user-attachments/assets/cd1f992c-94fd-4950-850e-7c643c10d3b3" />  
+圖筆畫確實變細且回正方向，但光譜時間軸標示不明確，因此需要做第四次的修改  
+
+第四次測試：DAP_Timestamp_v2.py  
+<img width="330" height="576" alt="01_temporal_spectrum_without_erased" src="https://github.com/user-attachments/assets/6b77ea86-5173-4f29-8636-7873e28b3ea5" />  
+順利解決時間軸問題  
+
+### 墨水數據統計  
+**為了可以看到繪畫過程的各項墨水資訊及統計數值，我利用程式產生一Excel檔**  
+
 ### 標準差和熵統計
