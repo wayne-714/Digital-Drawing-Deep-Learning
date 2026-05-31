@@ -36,5 +36,9 @@
 
 ### 墨水數據統計  
 **為了可以看到繪畫過程的各項墨水資訊及統計數值，我利用程式產生一Excel檔**  
+DAP_Statistical_Analysis.py  
+<img width="145" height="505" alt="螢幕擷取畫面 2026-04-27 095503" src="https://github.com/user-attachments/assets/75a98c78-52f9-4ecd-bdf6-701c7bfde302" />  
+以上為範例圖片，墨水數據包含時間、座標、筆壓、傾角、速度、筆畫數、擦拭筆畫數等等，都有被記錄下來    
 
 ### 標準差和熵統計
+**Zhang 等人於2024年的文章「Feasibility study on using house-tree-person drawings for automatic analysis of depression」提到，熵很重要，可以反應筆壓的整體分佈混亂程度**
